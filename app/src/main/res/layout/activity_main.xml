@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fontafyasanecrit"
+    tools:context=".MainActivity">
+
+    <View
+
+        android:layout_width="410dp"
+        android:layout_height="150dp"
+        android:layout_margin="1dp"
+        android:background="@drawable/afyalogo">
+
+    </View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Bienvenu"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp">
+
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/custom_edit">
+        >
+
+
+        <Button
+            android:onClick="montrenom"
+            android:layout_gravity="bottom|end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/pink"
+            android:text="Commencer"
+            >
+
+
+
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
